@@ -61,11 +61,12 @@
     }
     /*-----------------------------------solution------------------------------------*/
     .problem_text {
-        background: url(img/girl_solution.png) no-repeat 94px top / 80%;
+        background: url(img/girl_solution.png) no-repeat 49px top / 80%;
         padding-top: 197px;
-        padding-left: 93px;
+        padding-left: 49px;
         font-size: 16px;
         line-height: 21px;
+        padding-right: 2px;
     }
     .solution__box {
         gap: 0;
@@ -93,7 +94,7 @@
         font-weight: 500;
         font-size: 16px;
         line-height: 28px;
-        padding-left: 94px;
+        padding-left: 160px;
         padding-top: 70px;
     }
     .solution__text1 {
@@ -104,7 +105,7 @@
         line-height: 20px;
         padding-left: 160px;
         padding-top: 12px;
-        width: 227px;
+        width: 210px;
     }
     .solution__text2 {
         background: url("img/solution2.png") no-repeat 65px -6px / 18%;
@@ -114,7 +115,7 @@
         line-height: 20px;
         padding-left: 160px;
         margin-top: 50px;
-        width: 227px;
+        width: 206px;
     }
     /*----------------------------advantages-----------------------------------*/
     .advantages {
@@ -159,9 +160,6 @@
         padding-bottom: 84px;
         margin-left: 20px;
     }
-    .partner__title {
-        text-align: center;
-    }
     .partner__card1 {
         width: 330px;
     }
@@ -170,6 +168,9 @@
     }
     .list__left {
         padding-left: 50px;
+    }
+    .partner__listLeft li {
+        width: 260px;
     }
     .partner__card2::before {
         content: 'С техническим партнером Content Hub';
@@ -189,6 +190,7 @@
     }
     .partner__list_box li {
         padding-bottom: 27px;
+        width: 122px;
     }
     .card2__title {
         position: relative;
@@ -235,6 +237,7 @@
         color: white;
     }
     .interest__card p {
+        width: 220px;
         padding-left: 95px;
     }
     .interest__card h3 {
@@ -302,6 +305,7 @@
         padding-left: 160px;
     }
     .result__description {
+        width: 470px;
         font-size: 16px;
         line-height: 24px;
         padding-top: 16px;
@@ -391,7 +395,7 @@
         left: -68px;
     }
     .start__list li {
-        padding-right: 90px;
+        padding-right: 72px;
         font-size: 14px;
     }
     .start__list li:first-child {
@@ -409,6 +413,10 @@
     }
     .contact-form h2 {
         font-size: 27px;
+    }
+    .submit {
+        margin-top: 80px;
+        margin-left: 20px;
     }
     /*----------------------------------------footer----------------------------------------*/
     .header__menu.footer {

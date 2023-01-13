@@ -15,6 +15,7 @@ a {
     color: black;
     text-align: center;
 }
+input::-webkit-input-placeholder { color: black; }
 header {
     height: 720px;
     background-image: url("img/header_background.png");
@@ -134,6 +135,7 @@ li {
     border-radius: 6px;
 }
 .header__title {
+    width: 360px;
     margin-top: 276px;
     margin-left: 6px;
 }
@@ -168,6 +170,7 @@ li {
     padding-left: 104px;
     font-size: 18px;
     line-height: 28px;
+    padding-right: 80px;
 }
 .problem_text::before {
     content: 'Ситуация';
@@ -189,7 +192,7 @@ li {
     font-weight: 500;
     font-size: 16px;
     line-height: 28px;
-    padding-left: 262px;
+    padding-left: 271px;
     padding-top: 87px;
 }
 .solution_title::before {
@@ -213,7 +216,7 @@ li {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    padding-left: 258px;
+    padding-left: 271px;
     padding-top: 31px;
 }
 .solution__text2 {
@@ -222,7 +225,7 @@ li {
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    padding-left: 259px;
+    padding-left: 271px;
     margin-top: 50px;
 }
 .advantages {
@@ -231,6 +234,7 @@ li {
                 #7224EA;
 }
 .advantages__title {
+    width: 461px;
     font-weight: 700;
     font-size: 32px;
     line-height: 42px;
@@ -269,6 +273,7 @@ li {
 
 }
 .advantages__card p {
+    width: 245px;
     padding-left: 93px;
     padding-top: 34px;
     font-weight: 400;
@@ -369,6 +374,7 @@ li {
     padding-left: 30px;
 }
 .partner__listLeft li {
+    width: 315px;
     position: relative;
     padding-bottom: 29px;
     padding-left: 37px;
@@ -386,6 +392,7 @@ li {
     display: flex;
 }
 .partner__list_box li {
+    width: 191px;
     position: relative;
     padding-bottom: 58px;
     line-height: 18px;
@@ -493,6 +500,7 @@ li {
 }
 
 .interest__card p {
+    width: 290px;
     line-height: 16px;
     padding-left: 121px;
     padding-top: 13px;
@@ -513,6 +521,7 @@ li {
     line-height: 20px;
 }
 .process__text p:nth-child(1) {
+    width: 290px;
     padding-top: 57px;
     padding-left: 745px;
 }
@@ -527,7 +536,7 @@ li {
     padding-left: 902px
 }
 .process__text p:nth-child(4) {
-    padding-top: 68px;
+    padding-top: 85px;
     padding-left: 13px;
     text-align: right;
     width: 300px;
@@ -537,6 +546,7 @@ li {
     background: url("img/bag.png") no-repeat 71% top;
 }
 .result h3 {
+    width: 467px;
     padding-top: 71px;
     padding-left: 4px;
     font-weight: 700;
@@ -576,6 +586,7 @@ li {
     padding-left: 304px;
 }
 .result__description {
+    width: 680px;
     font-size: 16px;
     line-height: 24px;
     padding-top: 16px;
@@ -647,10 +658,18 @@ li {
     padding-right: 193px;
 }
 .start__list li:first-child {
+    width: 90px;
     margin-left: 89px;
 }
 .start__list li:last-child  {
+    width: 80px;
     padding-right: 0;
+}
+.start__list li:nth-child(2) {
+    width: 168px;
+}
+.start__list li:nth-child(3) {
+    width: 91px;
 }
 .start__list li:nth-child(odd)::after {
     content: "";
@@ -709,6 +728,7 @@ li {
 .contact-info {
     background: url(img/contact-info_bgd.png) top left no-repeat;
     height: 727px;
+    background-size: 100% 727px;
 }
 .contact-info_form {
     width: 972px;
@@ -812,16 +832,17 @@ form {
     border-radius: 6px;
     font-weight: 700;
     position: relative;
-    top: 72px;
-    left: 95px;;
+    margin-top: 65px;
+    margin-left: 95px;
 }
 .submit::after {
     content: '';
     position: absolute;
-    top: 1px;
-    left: 328px;
-    border: 29.5px solid transparent;
-    border-left: 18px solid black;
+    top: 0;
+    left: 197px;
+    border: 30px solid transparent;
+    border-left: 16px solid black;
+    border-radius: 6px;
 }
 .submit:hover {
     background: #FDBF0F;
@@ -848,7 +869,7 @@ form {
     margin: 0 29px 0 107px;
 }
 .facebook {
-    margin: 0 119px 0 71px;
+    margin: 0 71px;
 }
 .copyright {
     font-size: 14px;
